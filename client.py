@@ -4,9 +4,8 @@ import subprocess
 import platform
 
 s = socket.socket()
-#s.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR, 1)
 
-host=""
+host="" #server IP address[mostly public ip address of the server computer]
 port = 9999
 
 s.connect((host,port))
