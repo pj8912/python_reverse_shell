@@ -7,7 +7,7 @@ import sys
 s = socket.socket()
 #s.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR, 1)
 
-host="192.168.1.13"
+host="HOST_ADDRESS"
 port = 9999
 
 s.connect((host,port))
